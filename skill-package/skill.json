@@ -1,0 +1,35 @@
+{
+  "manifest": {
+    "apis": {
+      "custom": {
+        "endpoint": {
+          "uri": "arn:aws:lambda:eu-west-1:810808609938:function:cc6e8ecc-06a6-4c8f-90c8-24f43333bf7f:Release_0"
+        },
+        "regions": {
+          "EU": {
+            "endpoint": {
+              "uri": "arn:aws:lambda:eu-west-1:810808609938:function:cc6e8ecc-06a6-4c8f-90c8-24f43333bf7f:Release_0"
+            }
+          },
+          "NA": {
+            "endpoint": {
+              "uri": "arn:aws:lambda:us-east-1:810808609938:function:cc6e8ecc-06a6-4c8f-90c8-24f43333bf7f:Release_0"
+            }
+          },
+          "FE": {
+            "endpoint": {
+              "uri": "arn:aws:lambda:us-west-2:810808609938:function:cc6e8ecc-06a6-4c8f-90c8-24f43333bf7f:Release_0"
+            }
+          }
+        }
+      }
+    },
+    "publishingInformation": {
+      "locales": {
+        "en-US": {
+          "name": "Hello-ASK-CLI-Skill"
+        }
+      }
+    }
+  }
+}
